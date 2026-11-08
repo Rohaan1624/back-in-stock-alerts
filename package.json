@@ -1,0 +1,13 @@
+{
+  "name": "back-in-stock-alerts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Back-in-stock email alerts: embeddable signup form, verified restock webhooks, exactly-once email delivery.",
+  "main": "src/server.js",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/server.js",
+    "test": "node --disable-warning=ExperimentalWarning --test test/"
+  },
+  "license": "MIT"
+}
